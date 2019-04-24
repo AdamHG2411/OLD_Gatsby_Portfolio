@@ -1,3 +1,5 @@
+I'm building my portfolio/blog site using Gatsby's basic starter. This will be a gradual process. I'm currently participating in General Assembly's Software Engineering Immersive and working on this as I have time. More info on Gatsby available below:
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
