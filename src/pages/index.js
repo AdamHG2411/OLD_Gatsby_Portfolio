@@ -1,16 +1,15 @@
 import React from 'react';
-
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
+import ahgPhoto from '../images/adam.jpg';
 import './index.css';
 
 const IndexPage = () => (
 	<Layout>
 		<SEO title="Home" keywords={[ `Adam Grider`, `development`, `software` ]} />
-		<div className="content">
+		<div className="Home">
 			<h1>Welcome! I'm Adam Grider</h1>
-			<div className="bodyText">
+			<div className="Home-Body">
 				<p>
 					<strong>
 						With a foundation of open communication, creative thinking, and the relentless pursuit of new
@@ -28,7 +27,7 @@ const IndexPage = () => (
 					opportunity.
 				</p>
 			</div>
-			<div className="profilePhoto" />
+			<img className="Home-Photo" src={ahgPhoto} />
 		</div>
 	</Layout>
 );
