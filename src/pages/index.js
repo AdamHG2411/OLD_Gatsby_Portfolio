@@ -27,7 +27,7 @@ const IndexPage = () => (
 					opportunity.
 				</p>
 			</div>
-			<img className="Home-Photo" src={ahgPhoto} />
+			<img className="Home-Photo" src={ahgPhoto} alt="Adam Grider" />
 		</div>
 	</Layout>
 );
